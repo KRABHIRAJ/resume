@@ -1,0 +1,69 @@
+@import "../../variables/Variables.scss";
+.links__container{
+    display: flex;
+}
+.hide__Slider{
+    height: 0;
+    overflow: hidden;
+    transition: all 400ms;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.navbar__showSlider{
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    transition: all 400ms;
+    overflow: hidden;
+    background-color: #f1f5f8;
+}
+.navbar__link{
+    margin: 0 20px;
+    cursor: pointer;
+    color: rgb(65,63,63);
+    margin: 10px 20px;
+    width: fit-content;
+    
+
+}
+
+.navbar__link:hover{
+    color: black;
+    border-bottom: 3px solid $textColor;
+    width: fit-content;
+}
+
+@media(max-width:768px){
+    .links__container{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #f1f5f8;
+        display: flex;
+    }
+
+    .navbar__link{
+        margin: 10px 0px;
+    }
+}
+
+@media(max-width:550px){
+    .navbar__link{
+        margin: 10px 15px;
+    }
+}
+
+ .active{
+    color: $textColor;
+}

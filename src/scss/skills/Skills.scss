@@ -1,0 +1,43 @@
+@import "../../variables/Variables.scss";
+.skills{
+    width: 100%;
+    background: #fff;
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.all__skill{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: center;
+}
+
+.skills__heading{
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 3px;
+    border-bottom: 4px solid $textColor;
+    margin-bottom: 20px;
+    font-size: 40px;
+
+}
+
+
+@media(max-width:962px){
+    .all__skill{
+        height: 700px;
+    }
+}
+
+@media(max-width:587px){
+    .all__skill{
+        height: 900px;
+    }
+    .skills{
+        margin-bottom: 80px;
+    }
+}
+

@@ -1,0 +1,16 @@
+.progressBar {
+  width: 150px;
+}
+
+.progressBar .CircularProgressbar-path {
+  stroke: #764DBE;
+}
+
+.progressbar__image {
+  width: 70px;
+}
+
+.progressbar {
+  height: 0;
+  padding: 20px;
+}/*# sourceMappingURL=ProgressBar.css.map */

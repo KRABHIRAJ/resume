@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap");
+.project {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  max-width: 350px;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0px 0px 25px -15px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin: 10px 5px;
+  transition: all 400ms;
+}
+
+.project:hover {
+  transform: scale(1.07);
+}
+
+.project__image {
+  min-width: 280px;
+  max-width: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.detail__heading {
+  padding: 10px;
+  color: #333333;
+}
+
+.detail__description {
+  color: #6F6E6E;
+  padding: 10px;
+}
+
+.project__detail {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 280px;
+  max-width: 350px;
+}
+
+.project__footer {
+  display: flex;
+  margin: 10px;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+}
+
+.footer__img {
+  height: 20px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0;
+  margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+  .project {
+    max-width: 310px;
+  }
+  .project__image {
+    max-width: 310px;
+  }
+  .project__detail {
+    max-width: 310px;
+  }
+}
+@media (max-width: 1080px) {
+  .project {
+    max-width: 400px;
+  }
+  .project__image {
+    max-width: 400px;
+  }
+  .project__detail {
+    max-width: 400px;
+  }
+}
+@media (max-width: 940px) {
+  .project {
+    max-width: 350px;
+  }
+  .project__image {
+    max-width: 350px;
+  }
+  .project__detail {
+    max-width: 350px;
+  }
+}
+@media (max-width: 840px) {
+  .project {
+    max-width: 300px;
+  }
+  .project__image {
+    max-width: 300px;
+  }
+  .project__detail {
+    max-width: 300px;
+  }
+}
+@media (max-width: 740px) {
+  .project {
+    max-width: 500px;
+    margin: 15px auto;
+  }
+  .project__image {
+    max-width: 500px;
+  }
+  .project__detail {
+    max-width: 500px;
+  }
+}
+@media (max-width: 625px) {
+  .project {
+    max-width: 400px;
+    margin: 15px auto;
+  }
+  .project__image {
+    max-width: 400px;
+  }
+  .project__detail {
+    max-width: 400px;
+  }
+}
+@media (max-width: 525px) {
+  .project {
+    max-width: 300px;
+    margin: 15px auto;
+  }
+  .project__image {
+    max-width: 300px;
+  }
+  .project__detail {
+    max-width: 300px;
+  }
+}/*# sourceMappingURL=Project.css.map */

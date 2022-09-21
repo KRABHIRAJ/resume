@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+.app > span{
+  font-family: 'Lovers Quarrel', cursive;
+  padding: 15px;
+  font-size: 40px;
+  color: #764DBE;
+}

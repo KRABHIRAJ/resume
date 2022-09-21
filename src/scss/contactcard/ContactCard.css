@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap");
+.contactcard {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 150px;
+  box-shadow: 0px 0px 25px -15px rgba(0, 0, 0, 0.75);
+  padding: 80px 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 400ms;
+  margin: 10px 10px;
+}
+
+.contact__type {
+  color: #333333;
+}
+
+.contact__detail {
+  color: #333333;
+}
+
+.contactcard:hover {
+  transform: scale(1.07);
+}
+
+.contactcard__img {
+  height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (max-width: 1300px) {
+  .contactcard {
+    width: 170px;
+    height: 130px;
+  }
+}
+@media (max-width: 1180px) {
+  .contactcard {
+    width: 270px;
+    height: 160px;
+  }
+}
+@media (max-width: 840px) {
+  .contactcard {
+    width: 220px;
+    height: 140px;
+  }
+}
+@media (max-width: 740px) {
+  .contactcard {
+    width: 170px;
+    height: 130px;
+  }
+}
+@media (max-width: 640px) {
+  .contactcard {
+    width: 300px;
+    height: 160px;
+  }
+}/*# sourceMappingURL=ContactCard.css.map */

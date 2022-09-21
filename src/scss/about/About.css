@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap");
+.about__container {
+  background-color: #FFFFFF;
+  display: flex;
+}
+
+.about {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 50px;
+}
+
+.about__details {
+  display: flex;
+  flex-direction: column;
+  max-width: 620px;
+  margin: auto;
+}
+
+.about__img {
+  max-width: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 15px;
+}
+
+.about__details > h1 {
+  color: #333333;
+  border-bottom: 4px solid #764DBE;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 40px;
+}
+
+.about__details > h3 {
+  color: #6F6E6E;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+@media (max-width: 950px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__details > h1 {
+    margin-top: 30px;
+  }
+  .about__details > h1 {
+    align-items: center;
+    margin: 25px auto;
+  }
+}
+@media (max-width: 600px) {
+  .about__img {
+    max-width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .about__img {
+    max-width: 270px;
+  }
+  .about__details {
+    display: flex;
+    color: red;
+    align-items: center;
+    text-align: center;
+  }
+}/*# sourceMappingURL=About.css.map */
